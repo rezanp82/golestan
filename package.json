@@ -1,0 +1,21 @@
+{
+  "name": "golestan",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tailwind": "npx @tailwindcss/cli -i ./public/tailwind/tail.css -o ./public/css/main.css --watch"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^7.0.0"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "animate.css": "^4.1.1",
+    "tailwindcss": "^4.1.11"
+  }
+}

@@ -1,0 +1,91 @@
+@import "animate.css";
+
+@font-face {
+  font-family: IRANSansLight;
+  src: url(../font/IRANSansLight.woff);
+}
+
+.IRANSansLight {
+  font-family: IRANSansLight;
+}
+.custom-border {
+  border-left: 0.5px solid #afb2b4; /* حاشیه سمت چپ 0.5px */
+}
+body {
+  font-family: "IRANSansLight", sans-serif;
+}
+#menu-toggle {
+  display: none;
+}
+#menu-toggle:checked ~ #mobile-menu {
+  display: block;
+}
+.columns-break-inside {
+  break-inside: avoid-column;
+}
+.mega-menu {
+  display: none;
+}
+.svg-mega-menu:hover .mega-menu {
+  display: block;
+  top: 100%;
+}
+
+.parallax-container {
+  width: 1600px;
+  height: 250px; /* ارتفاع دیو */
+  background-image: url("../img/recipe-baner-1.png");
+  background-position: center;
+  background-size: 1600px;
+  background-repeat: repeat; /* این تصویر را تکرار می‌کند */
+  background-attachment: fixed; /* این باعث می‌شود تصویر ثابت بماند و افکت پارالاکس ایجاد شود */
+}
+.parallax-container-2 {
+  width: 100%;
+  height: 250px; /* ارتفاع دیو */
+  background-image: url("../img/recipe-baner-1.png");
+  background-position: center;
+  background-size: cover;
+}
+.hover-icon {
+  background-image: url(../img/icon5-1.png);
+  &:hover {
+    transition: all 100ms;
+      background-image: url(../img/icon5-1-1.png);
+  }
+}
+.hover-icon-2 {
+  background-image: url(../img/icon4-1.png);
+  &:hover {
+    transition: all 100ms;
+      background-image: url(../img/icon4-1-1.png);
+  }
+}
+.hover-icon-3 {
+  background-image: url(../img/icon3-1.png);
+  &:hover {
+    transition: all 100ms;
+      background-image: url(../img/icon3-1-1.png);
+  }
+}
+.hover-icon-4 {
+  background-image: url(../img/icon2-1-1.png);
+  &:hover {
+    transition: all 100ms;
+      background-image: url(../img/icon2-1.png);
+  }
+}
+.hover-icon-5 {
+  background-image: url(../img/icon1-1-1.png);
+  &:hover {
+    transition: all 100ms;
+      background-image: url(../img/icon1-1.png);
+  }
+}
+.hover-icon-6 {
+  background-image: url(../img/icon6-1-2.png);
+  &:hover {
+    transition: all 100ms;
+      background-image: url(../img/icon6-1-3.png);
+  }
+}
