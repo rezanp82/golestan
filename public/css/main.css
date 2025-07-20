@@ -909,6 +909,11 @@
       display: none;
     }
   }
+  .md\:max-w-\[680px\] {
+    @media (width >= 48rem) {
+      max-width: 680px;
+    }
+  }
   .md\:flex-row {
     @media (width >= 48rem) {
       flex-direction: row;
