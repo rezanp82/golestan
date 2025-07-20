@@ -792,6 +792,22 @@
   .transform-3d {
     transform-style: preserve-3d;
   }
+  .selection\:bg-neutral-800 {
+    & *::selection {
+      background-color: var(--color-neutral-800);
+    }
+    &::selection {
+      background-color: var(--color-neutral-800);
+    }
+  }
+  .selection\:text-white {
+    & *::selection {
+      color: var(--color-white);
+    }
+    &::selection {
+      color: var(--color-white);
+    }
+  }
   .hover\:bg-\[\#000000CC\] {
     &:hover {
       @media (hover: hover) {
