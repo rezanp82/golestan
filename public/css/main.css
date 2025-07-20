@@ -638,11 +638,20 @@
   .px-\[10px\] {
     padding-inline: 10px;
   }
+  .px-\[15\] {
+    padding-inline: 15;
+  }
+  .px-\[15px\] {
+    padding-inline: 15px;
+  }
   .px-\[20px\] {
     padding-inline: 20px;
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
+  }
+  .py-\[12px\] {
+    padding-block: 12px;
   }
   .py-\[13px\] {
     padding-block: 13px;
