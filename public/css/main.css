@@ -670,11 +670,23 @@
   .pb-\[30px\] {
     padding-bottom: 30px;
   }
+  .pl-\[\%\] {
+    padding-left: %;
+  }
+  .pl-\[1\%\] {
+    padding-left: 1%;
+  }
   .pl-\[20px\] {
     padding-left: 20px;
   }
   .pl-\[40px\] {
     padding-left: 40px;
+  }
+  .pl-\[70\%\] {
+    padding-left: 70%;
+  }
+  .pl-\[80\%\] {
+    padding-left: 80%;
   }
   .pl-\[100\%\] {
     padding-left: 100%;
