@@ -30,7 +30,51 @@ body {
   display: block;
   top: 100%;
 }
-
+.mega-2 {
+      opacity: 0;
+  visibility: hidden;
+}
+.mega-1:hover .mega-2 {
+  opacity: 1;
+  visibility: visible;
+  display: flex;
+  top: 100%;
+  transition: opacity 200ms ease-in-out, visibility 0s 0s;
+}
+.mega-4 {
+    opacity: 0;
+  visibility: hidden;
+}
+.mega-3:hover .mega-4 {
+  opacity: 1;
+  visibility: visible;
+  display: flex;
+  top: 100%;
+  transition: opacity 200ms ease-in-out, visibility 0s 0s;
+}
+.mega-6 {
+    opacity: 0;
+  visibility: hidden;
+}
+.mega-5:hover .mega-6 {
+  opacity: 1;
+  visibility: visible;
+  display: flex;
+  top: 100%;
+  transition: opacity 200ms ease-in-out, visibility 0s 0s;
+}
+.mega-8 {
+  opacity: 0;
+  visibility: hidden;
+  
+}
+.mega-7:hover .mega-8 {
+  opacity: 1;
+  visibility: visible;
+  display: flex;
+  top: 100%;
+  transition: opacity 200ms ease-in-out, visibility 0s 0s;
+}
 .parallax-container {
   width: 1600px;
   height: 250px; /* ارتفاع دیو */
@@ -51,41 +95,41 @@ body {
   background-image: url(../img/icon5-1.png);
   &:hover {
     transition: all 100ms;
-      background-image: url(../img/icon5-1-1.png);
+    background-image: url(../img/icon5-1-1.png);
   }
 }
 .hover-icon-2 {
   background-image: url(../img/icon4-1.png);
   &:hover {
     transition: all 100ms;
-      background-image: url(../img/icon4-1-1.png);
+    background-image: url(../img/icon4-1-1.png);
   }
 }
 .hover-icon-3 {
   background-image: url(../img/icon3-1.png);
   &:hover {
     transition: all 100ms;
-      background-image: url(../img/icon3-1-1.png);
+    background-image: url(../img/icon3-1-1.png);
   }
 }
 .hover-icon-4 {
   background-image: url(../img/icon2-1-1.png);
   &:hover {
     transition: all 100ms;
-      background-image: url(../img/icon2-1.png);
+    background-image: url(../img/icon2-1.png);
   }
 }
 .hover-icon-5 {
   background-image: url(../img/icon1-1-1.png);
   &:hover {
     transition: all 100ms;
-      background-image: url(../img/icon1-1.png);
+    background-image: url(../img/icon1-1.png);
   }
 }
 .hover-icon-6 {
   background-image: url(../img/icon6-1-2.png);
   &:hover {
     transition: all 100ms;
-      background-image: url(../img/icon6-1-3.png);
+    background-image: url(../img/icon6-1-3.png);
   }
 }
